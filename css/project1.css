@@ -1,0 +1,67 @@
+body{
+    background-image: url("../img/bg2.jpg");
+    background-size: auto;
+    text-align: center;
+
+}
+
+table, tr, td 
+{
+    border-color: black;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    
+    
+}
+div
+{
+    border-radius: 15px 50px;
+    background: #AA7243;
+    padding: 20px; 
+    width: 20px;
+    height: 15px;
+    text-align: center;
+    font: 2em;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     text-align: center;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+pic
+{
+    text-align: center;
+
+}
+
+img
+{
+    height: 200px;
+    width: 200px;
+}
